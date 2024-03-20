@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "5.0.3"
+docutils = "0.20.1"
+gunicorn = "21.2.0"
+whitenoise = "6.6.0"
+psycopg2-binary = "2.9.9"
+tzdata = "2024.1"
+coverage = "7.4.4"
+python-dotenv = "1.0.1"
+isort = "*"
+flake8 = "*"
+black = "*"
+setuptools = "*"
+
+[dev-packages]
+
+[requires]
