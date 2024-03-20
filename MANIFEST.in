@@ -1,0 +1,3 @@
+include resumes/*.py
+recursive-exclude resumes/migrations *.py
+recursive-exclude tests *.py
