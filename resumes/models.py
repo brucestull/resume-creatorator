@@ -9,7 +9,7 @@ class ProfessionalName(CreatedUpdatedBase):
     Model for a User's professional name to be used in resumes and social media.
     """
 
-    user = models.OneToOneField(
+    user = models.ForeignKey(
         AUTH_USER_MODEL,
         on_delete=models.CASCADE,
         related_name="professional_name",
