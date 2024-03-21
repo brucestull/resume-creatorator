@@ -80,7 +80,7 @@ class TechnicalSkillAdmin(admin.ModelAdmin):
     fieldsets = (
         (
             None,
-            {"fields": ("user", "skill_type", "name")},
+            {"fields": ("user", "skill_type", "name", "order")},
         ),
         (
             "Important Dates",
