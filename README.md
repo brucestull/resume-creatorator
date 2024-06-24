@@ -6,6 +6,10 @@ Django application package for creating custom-content resumes.
 
 This application can be imported by [`django-custom-user-base`](https://github.com/brucestull/django-custom-user-base)
 
+## Resources
+
+- [https://github.com/FlynntKnapp-python/python-docx](https://github.com/FlynntKnapp-python/python-docx)
+
 ## Install Using tar.gz
 
 ### Build in `resume-creatorator`

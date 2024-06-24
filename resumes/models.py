@@ -55,6 +55,11 @@ class TechnicalSkillType(CreatedUpdatedBase):
         max_length=255,
         help_text="The name of the skill type.",
     )
+    user = models.ForeignKey(
+        AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name="technical_skill_types",
+    )
 
     def __str__(self):
         return self.name
